@@ -15,6 +15,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MiniIdentityApi.Api\MiniIdentityApi.Api.csproj" />
+    <ProjectReference Include="..\MiniIdentityApi.Application\MiniIdentityApi.Application.csproj" />
+    <ProjectReference Include="..\MiniIdentityApi.Domain\MiniIdentityApi.Domain.csproj" />
+    <ProjectReference Include="..\MiniIdentityApi.Infrastructure\MiniIdentityApi.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

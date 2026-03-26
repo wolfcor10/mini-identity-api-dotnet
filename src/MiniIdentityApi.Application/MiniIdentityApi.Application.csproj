@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MiniIdentityApi.Domain\MiniIdentityApi.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
